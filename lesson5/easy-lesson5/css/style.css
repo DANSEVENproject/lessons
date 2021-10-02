@@ -1,0 +1,53 @@
+body {
+    background: url(../img/background-site.jpg);
+    background-attachment: fixed;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 770px;
+    background: url(../img/background-container.jpg);
+}
+
+.main-container .container {
+    padding: 15px 50px 0px 50px;
+}
+
+.padding-indet {
+    text-indent: 40px;
+}
+
+.padding-indet-1 {
+    padding-left: 40px;
+}
+
+.title-h1 {
+    text-align: center;
+}
+
+.title-h2 {
+    text-align: center;
+    color: slategrey;
+}
+
+.title-h3 {
+    text-align: center;
+}
+
+.title-note {
+    text-align: center;
+    color: brown;
+}
+
+.image {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.first-paragraph {
+    font-style: italic;
+    font-size: 16px;
+}
