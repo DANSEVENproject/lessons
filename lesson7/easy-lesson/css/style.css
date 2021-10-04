@@ -1,0 +1,123 @@
+* *:before *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F9F9F9;
+}
+
+.main-container {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-1 {
+    margin: 0;
+    width: 92.4%;
+}
+
+.container {
+    flex-wrap: wrap;
+    margin: 0;
+    display: flex;
+    margin-top: 94px;
+    justify-content: space-around;
+}
+
+.catalog-name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.card-4 img {
+    width: 232px;
+}
+
+.container button {
+    height: 56px;
+    width: 201px;
+    border: 2px solid #23BAC1;
+    background-color: #fff;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.container button p {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #23BAC1;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-color: white;
+    width: 264px;
+    height: 212px;
+    margin: 0;
+}
+
+.container .card-1 {
+    margin: 0;
+    align-items: center;
+    width: 264px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card-2 {
+    margin: 0;
+    align-items: center;
+    width: 264px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card-3 {
+    margin: 0;
+    align-items: center;
+    width: 264px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card-4 {
+    margin: 0;
+    align-items: center;
+    width: 264px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container h4 {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}

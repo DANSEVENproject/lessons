@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Tahoma-bold';
+    src: url(../css/font-family/TahomaBold-ywBJm.ttf);
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url(../css/font-family/Tahoma-6YeMg.ttf);
+}
+
+* *:before *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.main-container {
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1144px;
+    margin: 77px auto 0px auto;
+}
+
+.body-container {
+    margin: 0;
+}
+
+.main-block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    background-color: white;
+}
+
+.left-block {
+    flex-basis: 41.67%;
+    margin: 0;
+}
+
+.right-block {
+    flex-basis: 58.33%;
+    margin: 0;
+}
+
+.section-1 {
+    margin-top: 90px;
+    background-color: #F2F2F2;
+}
+
+.section-2 {
+    background-color: #fff;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1144px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.container-2-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1144px;
+}
+
+.container-2-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1144px;
+}
+
+.first-string {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.second-string {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 39px 0px 110px 0px;
+}
+
+.right-block p {
+    padding-right: 123px;
+}
+
+.product h1 {
+    margin: 0;
+    margin-top: 60px;
+    font-family: 'Tahoma-bold';
+    font-size: 48px;
+}
+
+.product span {
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Tahoma';
+}
+
+.product p {
+    margin-top: 35px;
+    font-family: 'Tahoma';
+    font-size: 18px;
+}
+
+.product h3 {
+    margin-top: 47px;
+    font-family: 'Tahoma';
+    font-size: 48px;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 52px;
+}
+
+.button-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68px;
+    width: 176px;
+    text-decoration: none;
+    font-family: 'Tahoma';
+    font-size: 24px;
+    color: white;
+    background-color: #F15921;
+    border: 2px solid #F15921;
+    border-radius: 7px;
+}
+
+.button-1:hover {
+    background-color: white;
+    transition: 0.5s ease;
+    color: #F15921;
+}
+
+.button-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    margin-left: 39px;
+    height: 68px;
+    text-decoration: none;
+    font-family: 'Tahoma';
+    font-size: 24px;
+    color: #F15921;
+    background-color: #fff;
+    border: 2px solid #F15921;
+    border-radius: 7px;
+}
+
+.button-2:hover {
+    background-color: #F15921;
+    transition: 0.5s ease;
+    color: white;
+}
+
+.container-2 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    max-width: 25%;
+    height: 282px;
+}
+
+.card img {
+    margin: 0 auto;
+}
+
+.icon-text {
+    margin: auto 0;
+}
+
+.container-1 h1 {
+    margin: 90px auto 0px auto;
+    font-size: 30px;
+    font-family: 'Tahoma';
+}
+
+.card .icon-text p {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-2-1 h1 {
+    margin: 90px auto 68px auto;
+    font-size: 30px;
+    font-family: 'Tahoma';
+}
+
+.card-photo {
+    margin: 0;
+}
+
+.card-photo img {
+    width: 263px;
+    height: 263px;
+}
