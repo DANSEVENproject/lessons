@@ -263,6 +263,14 @@ body {
     flex-wrap: wrap;
 }
 
+.photo img {
+    display: block;
+    max-width: 362px;
+    max-height: 254px;
+    width: auto;
+    height: auto;
+}
+
 .section-people .photo {
     margin-bottom: 36px;
 }
