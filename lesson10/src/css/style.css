@@ -1,0 +1,237 @@
+* *::before *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: url(../font/HelveticaNeueCyr-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url(../font/HelveticaNeueBlackCondensed.ttf);
+}
+
+body {
+    font-family: 'HelveticaNeue-Bold';
+}
+
+.container {
+    padding: 0;
+}
+
+.row {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: auto;
+    color: #95989A;
+    padding-bottom: 167px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.head-container {
+    background-color: #F4F5F7;
+    padding-top: 76px;
+    padding-bottom: 191px;
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: auto;
+    color: #95989A;
+}
+
+.container .text-button {
+    margin: 0;
+}
+
+.book {
+    text-align: center;
+}
+
+.subtitle {
+    color: #32325F;
+    font-size: 20px;
+}
+
+.text-button h4 {
+    margin-top: 27px;
+    font-size: 48px;
+    color: #32325F;
+}
+
+.text-button .description {
+    margin-top: 25px;
+    color: #32325F;
+    font-size: 20px;
+}
+
+.text-button .price {
+    margin-top: 29px;
+    color: #525F7F;
+    font-size: 48px;
+}
+
+.text-button .price-word {
+    margin-top: 20px;
+    color: #32325F;
+    font-size: 20px;
+}
+
+.text-button .button-header {
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-header .first-button {
+    max-width: 214px;
+    margin-bottom: 15px;
+    padding: 23px 35px;
+    text-align: center;
+    border: 1px solid #2DCE89;
+    border-radius: 10px;
+    background-color: #2DCE89;
+}
+
+.button-header .second-button {
+    max-width: 250px;
+    padding: 23px 39px;
+    text-align: center;
+    border: 1px solid #5E72E4;
+    border-radius: 10px;
+    background-color: #5E72E4;
+    margin-bottom: 15px;
+}
+
+.button-header .first-button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.button-header .second-button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.first-button:hover {
+    transition: 0.5s ease;
+    background-color: #5E72E4;
+}
+
+.second-button:hover {
+    transition: 0.5s ease;
+    background-color: #2DCE89;
+}
+
+.about {
+    background-color: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 164px;
+}
+
+.about-book {
+    font-size: 20px;
+    color: #32325F;
+}
+
+.about .container h2 {
+    text-align: left;
+    margin-top: 29px;
+    color: #32325F;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.card-general img {
+    text-align: left;
+    max-width: 86px;
+    max-height: 85px;
+}
+
+.card-1 img {
+    text-align: left;
+    max-width: 74px;
+    max-height: 85px;
+}
+
+.card-general p {
+    margin-top: 40px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.card-1 p {
+    margin-top: 40px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.people {
+    background-color: #F4F5F7;
+    padding-top: 94px;
+    padding-bottom: 112px;
+}
+
+.people-already {
+    font-size: 20px;
+    color: #32325F;
+}
+
+.people .container h4 {
+    text-align: left;
+    margin-top: 29px;
+    color: #32325F;
+    font-size: 48px;
+    margin-bottom: 64px;
+}
+
+.photo {
+    max-width: 362px;
+    max-height: 254px;
+    width: auto;
+    height: auto;
+    margin: 20px 0px 10px 0px;
+}
+
+.footer {
+    background-color: #32325F;
+    padding-top: 120px;
+    padding-bottom: 83px;
+}
+
+.block-footer {
+    margin-bottom: 30px;
+}
+
+.block-footer h4 {
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.block-footer a {
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.4;
+    text-decoration: none;
+}
