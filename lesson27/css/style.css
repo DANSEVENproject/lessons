@@ -1,0 +1,185 @@
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/Lato-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+        font-display: auto;
+    }
+    
+    @font-face {
+        font-family: 'Raleway';
+        src: url('../fonts/Raleway-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+        font-display: auto;
+    }
+    
+    * *::after *::before {
+        box-sizing: border-box;
+    }
+    
+    .main {
+        background-color: #EFEDF0;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 1180px;
+        padding: 85px 0px;
+    }
+    
+    .grid-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1.4fr;
+        grid-template-areas: "card-1 card-2 header-card" "card-3 card-4 .";
+        grid-row-gap: 20px;
+        justify-content: center;
+    }
+    
+    .main__header {
+        margin-left: 32px;
+        max-width: 370px;
+        text-align: left;
+        grid-area: header-card;
+    }
+    
+    .main__subtitle {
+        margin-top: 1px;
+        margin-left: 1px;
+        max-width: 120px;
+        background-color: black;
+        color: #fff;
+        font-size: 12px;
+        font-family: 'Lato';
+        margin-bottom: 20px;
+        padding: 8px 14px 8px 12px;
+    }
+    
+    .invalid {
+        display: flex;
+    }
+    
+    .main__title-1,
+    .main__title-2,
+    .main__title-3 {
+        padding: 0;
+        margin: 0;
+        font-size: 48px;
+        line-height: 1;
+        font-family: 'Raleway';
+        text-transform: uppercase;
+        margin-bottom: 13px;
+        color: #6FA40B;
+    }
+    
+    .main__title-2 {
+        margin-bottom: 25px;
+    }
+    
+    .main__title-3 {
+        color: black;
+        margin-left: 18px;
+    }
+    
+    .main__header p {
+        max-width: 260px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: rgb(85, 85, 85);
+        line-height: 1.5;
+    }
+    
+    .main__block-1,
+    .main__block-2,
+    .main__block-3,
+    .main__block-4 {
+        max-width: 320px;
+        text-align: center;
+        padding: 44px 0px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0 15px #D3D1D4;
+    }
+    
+    .main__block-1 {
+        grid-area: card-1;
+    }
+    
+    .main__block-2 {
+        grid-area: card-2;
+    }
+    
+    .main__block-3 {
+        grid-area: card-3;
+    }
+    
+    .main__block-4 {
+        grid-area: card-4;
+    }
+    
+    .main__block-1 img,
+    .main__block-2 img,
+    .main__block-3 img,
+    .main__block-4 img {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    
+    .main__block-3 img {
+        margin-top: -5px;
+    }
+    
+    .main__block__title {
+        display: block;
+        font-size: 16px;
+        font-family: 'Raleway';
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+    .main__block__subtitle {
+        display: block;
+        font-size: 18px;
+        font-family: 'Lato';
+        color: rgb(85, 85, 85);
+        line-height: 1.5;
+        padding: 0px 5px;
+    }
+    
+    @media (max-width:1200px) {
+        .grid-block {
+            margin: 20px;
+            grid-column-gap: 25px;
+        }
+    }
+    
+    @media (max-width:900px) {
+        .grid-block {
+            grid-template-columns: 1fr 1.4fr;
+            grid-template-areas: "card-1 header-card" "card-2 ." "card-3 ." "card-4 .";
+        }
+    }
+    
+    @media (max-width:680px) {
+        .grid-block {
+            grid-template-columns: minmax(200px, 320px);
+            grid-template-areas: "header-card" "card-1" "card-2" "card-3" "card-4";
+            justify-content: center;
+        }
+        .main__header {
+            margin-left: 0px;
+        }
+    }
+    
+    @media (max-width:420px) {
+        .invalid {
+            display: block;
+        }
+        .main__title-3 {
+            margin-left: 0px;
+        }
+        .container {
+            max-width: 90%;
+        }
+    }
